@@ -28,6 +28,8 @@ namespace PracticoLinqEjercicio2
             //Como queremos obtener 1 solo registro, podemos usar el operador FirstOrDefault, filtrando con una expresion lambda, sin usar el operador Where
             var alumnoPorExcelenciaSegundaManera = alumnos.FirstOrDefault(alumno => alumno.Nota == alumnos.Max(x => x.Nota));
 
+            //Git flowe iniciado
+
 
         }
     }
